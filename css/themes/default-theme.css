@@ -1,0 +1,72 @@
+.special-heading h2,
+.navbar-brand span,
+.features .feat h4:hover,
+.features .feat span,
+.features .feat i,
+.pricing .price-box span,
+.pricing .price-box i,
+.statistics .plus,
+.about span {
+    color: var(--min-color);
+}
+
+.custom-active,
+.dropdown-menu li a:hover,
+hr.dropdown-divider,
+.features .feat:hover:after,
+.item h4,
+.testi .carousel-dark .carousel-indicators [data-bs-target],
+.pricing .price-box a,
+.subscribe button,
+.skils-info a,
+.contact-us .fields form a,
+.box-btn {
+    background-color: var(--min-color);
+}
+
+
+/* Start Hover */
+.pricing .price-box a:hover {
+    background-color: #a91512;
+}
+
+button.btn.btn-danger.box-btn:hover {
+    background-color: #a91512;
+}
+
+.footer-logo:hover,
+footer .column-one span,
+.footer .column-three i {
+    color: var(--footer-color);
+}
+
+footer .column-tow a:hover {
+    color: var(--footer-color);
+}
+
+footer .column-three a:hover {
+    color: var(--footer-color);
+}
+/* End Hover */
+
+/* Start Before */
+footer .column-tow li::before {
+    color: var(--footer-color);
+}
+
+.about .icons li::before {
+    color: var(--min-color);
+}
+/* End Before */
+.dropdown-menu,
+.option-box .color-option {
+    border-color: var(--min-color);
+}
+
+button.btn.btn-danger.box-btn:nth-of-type(1) {
+    background-color: var(--min-color);
+}
+
+button.btn.btn-danger.box-btn:nth-of-type(2) {
+    background-color: #e41b17a3;
+}

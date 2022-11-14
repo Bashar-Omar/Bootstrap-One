@@ -1,0 +1,90 @@
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #0a2607;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--min-green);
+    box-shadow: 0px 0px 40px 40px var(--min-green);
+}
+
+.special-heading h2,
+.navbar-brand span,
+.features .feat h4:hover,
+.features .feat span,
+.features .feat i,
+.pricing .price-box span,
+.pricing .price-box i,
+.statistics .plus,
+.about span,
+footer .column-one span,
+footer .column-three i {
+    color: var(--min-green);
+}
+
+.custom-active,
+.dropdown-menu li a:hover,
+hr.dropdown-divider,
+.features .feat:hover:after,
+.item h4,
+.testi .carousel-dark .carousel-indicators [data-bs-target],
+.pricing .price-box a,
+.subscribe button,
+.skils-info a,
+.contact-us .fields form a,
+.box-btn {
+    background-color: var(--min-green);
+}
+
+.dropdown-menu,
+.option-box .color-option {
+    border-color: var(--min-green);
+}
+
+button.btn.btn-danger.box-btn:nth-of-type(1) {
+    background-color: #00753f;
+}
+
+button.btn.btn-danger.box-btn:nth-of-type(2) {
+    background-color: #00753ea3;
+}
+
+/* Start Hover */
+.pricing .price-box a:hover {
+    background-color: #00753f;
+}
+
+.btn:hover {
+    background-color: #00753f;
+}
+
+button.btn.btn-danger.box-btn:hover {
+    background-color: #00572e;
+}
+
+.footer-logo:hover {
+    color: var(--min-green);
+}
+
+footer .column-tow a:hover {
+    color:var(--min-green);
+}
+
+footer .column-three a:hover {
+    color: var(--min-green); 
+}
+/* End Hover */
+
+/* Start Before */
+.special-heading h2:before {
+    background-color: var(--min-green)94;
+}
+
+footer .column-tow li::before {
+    color: var(--min-green);
+}
+
+.about .icons li::before {
+    color: var(--min-green);
+}
+/* End Before */
